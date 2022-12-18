@@ -1,27 +1,31 @@
 #intro {
     align-items: flex-start;
     height: max-content;
+    justify-content: space-around;
 }
 
 #info {
     margin-top: 15vh;
+    width: 60vw;
 }
 
 #description {
     font-size: 2vw;
-    width: 70%;
     margin-left: 3vw;
 }
 
 img {
-    width: 30vw;
-    margin-top: 25vh;
+    width: 25vw;
+    margin-top: 20vh;
+    margin-right: 3vw;
+    border-radius: 2vw;
 }
 
 h2 {
     margin: 3vw;
     font-size: 6vw;
     font-weight: 600;
+    width: fit-content;
 }
 
 ::-webkit-scrollbar-track {
